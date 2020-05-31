@@ -37,4 +37,4 @@ ch() {
 	printf "\nYou can use : keys \n"
 	read
 	}
-	
+	s
