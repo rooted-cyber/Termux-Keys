@@ -53,4 +53,3 @@ banner() {
 	fi
 	}
 	setup
-	menu
