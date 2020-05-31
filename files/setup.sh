@@ -30,6 +30,9 @@ ch() {
 	#cd ~/Termux-Keys
 	#bash random.sh
 	clear
+	echo "#!/data/data/com.termux/files/usr/bin/sh" >> $PREFIX/bin/ex
+	echo "killall -9 com.termux" >> $PREFIX/bin/ex
+	chmod 777 $PREFIX/bin/ex
 	echo "#!/data/data/com.termux/files/usr/bin/sh" >> $PREFIX/bin/keys
 	echo "bash ~/Termux-Keys/apply.sh" >> $PREFIX/bin/keys
 	chmod 777 $PREFIX/bin/keys
