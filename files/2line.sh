@@ -11,7 +11,7 @@ banner() {
 		sleep 1
 		cd ~/.termux
 		rm -f termux.properties > /dev/null 2>&1
-		echo "extra-keys = [['/','ls','$','~','UP','cd','*'],['exit','CTRL','ENTER','LEFT','DOWN','RIGHT','.']]" >> $HOME/.termux/termux.properties
+		echo "extra-keys = [['/','ls','$','~','UP','exit','*'],['ex','CTRL','ENTER','LEFT','DOWN','RIGHT','F2']]" >> $HOME/.termux/termux.properties
 		random
 		printf "\n Restart Termux\n"
 		}
